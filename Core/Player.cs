@@ -1,5 +1,9 @@
 namespace CardCore.Core;
 
+/// <summary>
+///  need to refactor later, I don't want to overcomplicate things at this stage (because i don't know rn how i wanna
+/// implement registration (are we need registration?...)
+/// </summary>
 public class Player
 {
     public int Id; // currently on runtime, not in database or whatever we gonna save game data
@@ -14,7 +18,7 @@ public class Player
     }
 
 
-    public void NewPlayer()
+    public void CreatePlayer()
     {
         // code
     }
